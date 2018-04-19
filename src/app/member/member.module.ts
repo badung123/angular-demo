@@ -5,6 +5,7 @@ import {MemberRoutingModule} from './member-routing.module';
 import {LoginComponent} from './login/login.component';
 import {SharedModule} from '../shared/shared.module';
 import { MemberListComponent } from './member-list/member-list.component';
+import {DepartmentListComponent} from "./department-list/department-list.component";
 
 @NgModule({
   imports: [
@@ -14,7 +15,7 @@ import { MemberListComponent } from './member-list/member-list.component';
     MemberRoutingModule
   ],
   exports: [],
-  declarations: [LoginComponent, MemberListComponent],
+  declarations: [LoginComponent, MemberListComponent, DepartmentListComponent],
   providers: []
 })
 export class MemberModule {
