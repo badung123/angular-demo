@@ -15,6 +15,11 @@
             <i class="fas fa-users"></i> Members
           </a>
         </li>
+        <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{ exact: true }">
+          <a class="nav-link" routerLink="members/department">
+            <i class="fas fa-th"></i> Department
+          </a>
+        </li>
       </ul>
       <ul class="navbar-nav ml-auto" *appShowAuthed="true">
         <li class="nav-item">
