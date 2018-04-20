@@ -2,19 +2,19 @@
     <thead>
       <tr>
         <th scope="col">#</th>
-        <th scope="col">First</th>
-        <th scope="col">Last</th>
-        <th scope="col">Handle</th>
+        <th scope="col">Department Name</th>
+        <th scope="col">Manager Name</th>
+        <th scope="col">Manager Age</th>
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <th scope="row">1</th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
+      <tr *ngFor="let department of departments">
+        <th scope="row">{{department.id}}</th>
+        <td>{{department.name}}</td>
+        <td>{{department.manager}}</td>
+        <td>{{department.age}}</td>
       </tr>
-      <tr>
+      <!-- <tr>
         <th scope="row">2</th>
         <td>Jacob</td>
         <td>Thornton</td>
@@ -24,7 +24,7 @@
         <th scope="row">3</th>
         <td>Larry</td>
         <td>the Bird</td>
-        <td>@twitter</td>
-      </tr>
+        <td>@twitter</td> -->
+      <!-- </tr> -->
     </tbody>
   </table>
