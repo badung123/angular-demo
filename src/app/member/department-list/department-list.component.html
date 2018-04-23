@@ -10,8 +10,8 @@
     <tbody>
       <tr *ngFor="let department of departments">
         <th scope="row">{{department.id}}</th>
-        <td>{{department.name}}</td>
-        <td>{{department.manager}}</td>
+        <td>{{department.name | latinise}}</td>
+        <td>{{department.manager | latinise}}</td>
         <td>{{department.age}}</td>
       </tr>
       <!-- <tr>

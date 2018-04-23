@@ -6,13 +6,15 @@ import {LoginComponent} from './login/login.component';
 import {SharedModule} from '../shared/shared.module';
 import { MemberListComponent } from './member-list/member-list.component';
 import {DepartmentListComponent} from "./department-list/department-list.component";
+import {NgPipesModule} from 'ngx-pipes';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     SharedModule,
-    MemberRoutingModule
+    MemberRoutingModule,
+    NgPipesModule
   ],
   exports: [],
   declarations: [LoginComponent, MemberListComponent, DepartmentListComponent],

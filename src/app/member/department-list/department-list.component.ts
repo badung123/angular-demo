@@ -13,14 +13,14 @@ export class DepartmentListComponent implements OnInit {
     {
       'id': 1,
       'name':'.NET',
-      'manager':'Tran Dinh Giap',
+      'manager':'Trần Đình Giáp',
       'age':35
       
     },
     {
       'id': 2,
       'name':'PHP',
-      'manager':'Viet...',
+      'manager':'Việt',
       'age':30
     },
     {
